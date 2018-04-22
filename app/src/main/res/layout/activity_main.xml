@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondo"
+    tools:context="com.oscar.animales.MainActivity">
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="selecciona un animal"
+        android:textSize="25sp"
+        android:textColor="@color/colorTitulo"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        />
+    <Spinner
+        android:id="@+id/spinnerAnimal"
+        android:layout_below="@id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:entries="@array/animales">
+    </Spinner>
+
+    <LinearLayout
+        android:layout_below="@id/spinnerAnimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tvDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="aqui va la descripción"
+            android:textSize="25sp"
+            android:textColor="@color/colorTitulo"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
+

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">animales</string>
+    <string-array name="animales">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Caballo</item>
+        <item>Cerdo</item>
+    </string-array>
+</resources>
